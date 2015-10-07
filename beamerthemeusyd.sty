@@ -1,0 +1,50 @@
+% Insipired by Cameron Bracken's theme originally posted
+% here: http://cameron.bracken.bz/beamer-template
+% January 2009
+
+% Modifications done by Martin Bjeldbak Madsen
+% June 2014
+
+% Adapted theme for University of Sydney.
+% October 2015
+\mode<presentation>
+
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setsansfont[Path = /Library/Fonts/Microsoft/, BoldFont = Tw Cen MT Bold]{Tw Cen MT}
+\usefonttheme[onlymath]{serif}
+
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+
+\setbeamertemplate{footline} % show slide number on all slides but the first
+{%
+  \ifnum\c@framenumber=1
+  \else
+    \begin{beamercolorbox}[wd=0.95\paperwidth,right,dp=2ex]{page number}
+      \insertframenumber/\inserttotalframenumber
+    \end{beamercolorbox}
+  \fi%
+  \begin{beamercolorbox}[colsep=1.25pt]{lower separation line foot}
+  \end{beamercolorbox}
+}
+
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape}
+\setbeamerfont{section in head/foot}{shape=\scshape,size=\tiny}
+
+\setbeamertemplate{navigation symbols}{} % hide bottom nav buttons
+\setbeamercovered{transparent} % don't hide strip-teased bullet points
+
+\definecolor{topbarcolor}{HTML}{E64626} % USYD orange
+\setbeamercolor{lower separation line head}{bg=topbarcolor}
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{example text}{fg=black}
+\setbeamercolor{structure}{fg=black}
+\setbeamercolor{title}{fg=topbarcolor}
+
+\setbeamercolor{palette tertiary}{fg=black,bg=black!10}
+\setbeamercolor{palette quaternary}{fg=black,bg=black!10}
+
+\mode<all>

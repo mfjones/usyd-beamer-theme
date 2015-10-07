@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pyg
+*.synctex.gz
+*.tdo
+*.ps
+*.dvi
+*.snm
+*.toc
+*.nav

@@ -1,0 +1,55 @@
+\documentclass[compress]{beamer}
+\usetheme{usyd}
+
+\title{Title}
+\author{Author}
+\institute{Institution}
+
+% Logo of USYD
+\titlegraphic{
+  \includegraphics[width=6cm]{usyd-logo}
+}
+
+\begin{document}
+  \begin{frame}[plain]
+    \titlepage
+  \end{frame}
+
+  \section{Section 1}
+  \subsection{Subsection 1}
+  \begin{frame}{Section 1 - Subsection 1 - Frame 1}
+    \begin{itemize}
+      \item Item 1
+      \item Item 2
+      \item Item 3
+    \end{itemize}
+  \end{frame}
+  \begin{frame}{Section 1 - Subsection 1 - Frame 2}
+    \begin{itemize}
+      \item Item 1
+      \item Item 2
+      \item Item 3
+    \end{itemize}
+  \end{frame}
+  \subsection{Subsection 2}
+  \begin{frame}{Section 1 - Subsection 2 - Frame 1}
+    \begin{itemize}
+      \item Item 1
+      \item Item 2
+      \item Item 3
+    \end{itemize}
+  \end{frame}
+
+  \section{Section 2}
+  \subsection{Subsection 1}
+  \begin{frame}{Section 2 - Subsection 1 - Frame 1}
+    $$\Gamma(t) = \int_0^\infty x^{t-1} e^{-x}\, \mathrm{d} x$$
+    $$\int_0^1 \ln \Gamma(t)\, \mathrm{d} t = \frac{1}{2}\ln 2\pi$$
+  \end{frame}
+  \subsection{Subsection 2}
+  \begin{frame}{Section 2 - Subsection 2 - Frame 1}
+    \begin{theorem}
+      Let $G = (V,E)$ be a graph and $\deg(u)$ denote the degree of a vertex $u \in V$, then $$\sum_{u \in V} \deg(u) = 2 \vert E \vert.$$
+    \end{theorem}
+  \end{frame}
+\end{document}
