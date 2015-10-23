@@ -10,6 +10,6 @@ Move the `beamerthemeusyd.sty` and `usyd-logo.jpg` to the root folder of your pr
 
 See `example.tex` for a reference file, and `example.pdf` for the output.
 
-Make sure you have the font `Tw Cen MT` installed (this is the main font used by the theme).
+Make sure you have the font `Tw Cen MT` installed (this is the main font used by the theme). Depending on the location of the installed font, the path may need to be modified (line 14 of `beamerthemeusyd.sty`).
 
 This theme is based off Cameron Bracken's theme, originally posted here: [cameron.bracken.bz/beamer-template](http://cameron.bracken.bz/beamer-template).

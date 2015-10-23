@@ -12,6 +12,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \setsansfont[Path = /Library/Fonts/Microsoft/, BoldFont = Tw Cen MT Bold]{Tw Cen MT}
+\AtBeginDocument{
+  \DeclareSymbolFont{pureletters}{OT1}{cmr}{\mddefault}{it}
+}
 \usefonttheme[onlymath]{serif}
 
 \useoutertheme[subsection=false,shadow]{miniframes}
